@@ -3,10 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 
+const toRotate = [" Desenvolvedor Web", " Desenvolvedor Mobile", " Automações e Bots"];
+
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [" Desenvolvedor Web", " Desenvolvedor Mobile", " Automações e Bots"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -60,7 +61,7 @@ export const Banner = () => {
 </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Headder" />
+                        <img src={headerImg} alt="Header" />
 
                     </Col>
                 </Row>

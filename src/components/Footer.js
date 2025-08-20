@@ -13,8 +13,8 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/pedrolimaduarte/" target="_blank"><img src={navIcon1} /></a>
-                            <a href="https://www.instagram.com/pedroduuarte/" target="_blank"><img src={navIcon3} /></a>
+                            <a href="https://www.linkedin.com/in/pedrolimaduarte/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="linkedin" /></a>
+                            <a href="https://www.instagram.com/pedroduuarte/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="instagram" /></a>
                         </div>
                         <p>Pedro Duarte. Todos os direitos reservados.</p>
                     </Col>

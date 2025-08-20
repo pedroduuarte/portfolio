@@ -45,8 +45,8 @@ export const NavBar = () => {
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/pedrolimaduarte/" target="_blank"><img src={navIcon1} alt="" /></a>
-                        <a href="https://www.instagram.com/pedroduuarte/" target="_blank"><img src={navIcon3} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/pedrolimaduarte/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="linkedin" /></a>
+                        <a href="https://www.instagram.com/pedroduuarte/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="instagram" /></a>
                     </div>
                     <button className="vvd" onClick={() => window.location.href = "mailto:pdrlimaduarte@gmail.com"}><span>Conecte-se comigo!</span></button>
                 </span>
