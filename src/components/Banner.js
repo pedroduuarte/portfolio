@@ -12,6 +12,7 @@ export const Banner = () => {
     const period = 2000;
 
     useEffect(() => {
+        
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
